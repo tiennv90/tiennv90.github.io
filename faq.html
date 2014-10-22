@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NT Production</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hover.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -28,6 +30,11 @@
 
     <!-- GOOGLE FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+    <script src="js/wow.min.js"></script>
+    <script>
+     new WOW().init();
+    </script>
+
   </head>
   <body>
     <!-- BEGIN THANH TOPBAR -->
@@ -35,6 +42,7 @@
     </div>
     <!-- end of .top-bar-wrapper -->
     <div class="row">
+    <div class="fixed contain-to-grid">
         <nav class="top-bar" data-topbar>
             <ul class="title-area">
                 <li class="name">
@@ -59,21 +67,21 @@
                 <ul class="left">
                     <li><a href="huong-dan-dat-hang.html">Trang Chủ</a>
                     </li>
-                    <li><a href="gioi-thieu.html">GIỚI THIỆU</a>
+                    <li><a href="#">GIỚI THIỆU</a>
                     </li>
-                    <li><a href="lien-he.html">NAM</a>
+                    <li><a href="#">NAM</a>
                     </li>
-                    <li><a href="tu-thien.html">NỮ</a>
+                    <li><a href="#">NỮ</a>
                     </li>
-                    <li><a href="tu-thien.html">TRẺ EM</a>
+                    <li><a href="#">TRẺ EM</a>
                     </li>
-                    <li><a href="tu-thien.html">LIÊN HỆ</a>
+                    <li><a href="contact.html">LIÊN HỆ</a>
                     </li>
 
                 </ul>
 
                 <ul class="right">
-                    <li><a href="huong-dan-dat-hang.html"><i class="fa fa-shopping-cart"></i> Giỏ Hàng (5)</a>
+                    <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Giỏ Hàng (5)</a>
                     </li>
                    <li>
                      <a href="#" class="button" data-reveal-id="login-form">Đăng Nhập</a>
@@ -103,6 +111,7 @@
 
             </section>
         </nav>
+      </div>
     </div>
     <!-- end of .row -->
     <!-- END THANH TOPBAR -->

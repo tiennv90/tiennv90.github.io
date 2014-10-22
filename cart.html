@@ -1,0 +1,338 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NT Production</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <!-- CSS STYLE-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="js/jquery.plugins.min.js"></script>
+    <script type="text/javascript" src="js/jquery.revolution.min.js"></script>
+
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+    <script src="js/wow.min.js"></script>
+    <script>
+     new WOW().init();
+    </script>
+
+  </head>
+  <body>
+    <!-- BEGIN THANH TOPBAR -->
+    <div class="top-bar-background">
+    </div>
+    <!-- end of .top-bar-wrapper -->
+    <div class="row">
+    <div class="fixed contain-to-grid">
+        <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                    <h1>
+                        <a href="index.html">
+                            <img class="visible-for-large-up" id="logo" src="img/logo.png" alt="logo">
+                            <b class="hidden-for-large-up">NT PRODUCTION</b>
+                        </a>
+                    </h1>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon">
+                    <a href="#">
+                        <span></span>
+                    </a>
+                </li>
+            </ul>
+
+            <section class="top-bar-section">
+
+                <!-- Left Nav Section -->
+                <ul class="left">
+                    <li><a href="huong-dan-dat-hang.html">Trang Chủ</a>
+                    </li>
+                    <li><a href="#">GIỚI THIỆU</a>
+                    </li>
+                    <li><a href="#">NAM</a>
+                    </li>
+                    <li><a href="#">NỮ</a>
+                    </li>
+                    <li><a href="#">TRẺ EM</a>
+                    </li>
+                    <li><a href="contact.html">LIÊN HỆ</a>
+                    </li>
+
+                </ul>
+
+                <ul class="right">
+                    <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Giỏ Hàng (5)</a>
+                    </li>
+                   <li>
+                     <a href="#" class="button" data-reveal-id="login-form">Đăng Nhập</a>
+                     <div id="login-form" class="reveal-modal tiny" data-reveal>
+                      <h4 class="text-center">ĐĂNG NHẬP TÀI KHOẢN</h4>
+                      <form>
+                        <input type="text" Placeholder="Username" class="radius">
+                        <input type="password" Placeholder="Password" class="radius">
+                        <input type="submit" value="ĐĂNG NHẬP" class="button small expand">
+                        <input type="reset" value="XÓA HẾT" class="button small secondary expand">
+                      </form>
+                      <a class="close-reveal-modal">&#215;</a>
+                    </div>
+                   </li>
+                    <li><a href="#" data-reveal-id="search-box"><i class="fa fa-search"></i></a>
+                      <div id="search-box" class="reveal-modal tiny" data-reveal>
+                      <span class="gray-text">Vui lòng nhập nội dung tìm kiếm</span>
+                      <form action="">
+                        <input type="text" Placeholder="Tìm kiếm trên website..." class="radius">
+                      </form>
+                      <a class="close-reveal-modal">&#215;</a>
+                    </div>
+
+                    </li>
+
+                </ul>
+
+            </section>
+        </nav>
+      </div>
+    </div>
+    <!-- end of .row -->
+    <!-- END THANH TOPBAR -->
+
+    
+
+
+    <!--#################################
+           - BEGIN OF MAIN CONTENT -
+    #################################-->
+
+    
+
+    <hr>
+
+
+    <div class="row">
+      <ul class="breadcrumbs">
+        <li><a href="#">Trang Chủ</a></li>
+        <li class="current"><a href="#">Giỏ Hàng</a></li>
+      </ul>
+
+
+       <h1 class="main-header">GIỎ HÀNG</h1>
+       <h6 class="sub-main-header">Thông tin chi tiết giỏ hàng</h6>  
+           
+       <!-- A CART -->
+            <div class="cart-wrapper large-12 columns m-t-30">
+                   <!-- HeadTitle of cart --> 
+                    <div class="row head-title hide-for-small">
+                        <div class="small-1 columns">Hình SP</div>
+                        <div class="small-2 columns">Tên Sản Phẩm</div>
+                        <div class="small-2 columns">Đơn Giá (Đ)</div>
+                        <div class="small-2 columns">Màu</div>
+                        <div class="small-2 columns">Size</div>
+                        <div class="small-2 columns">Số Lượng</div>
+                        <div class="small-1 columns">Xóa</div>
+                    </div>
+                   <!-- HeadTitle of cart -->
+
+                   <!-- SMALL HeadTitle of cart --> 
+                    <div class="row head-title show-for-small">
+                        <div class="small-2 columns">Hình SP</div>
+                        <div class="small-3 columns">Tên Sản Phẩm</div>
+                        <div class="small-3 columns">Đơn Giá (Đ)</div>
+                        <div class="small-2 columns">Màu</div>
+                        <div class="small-2 columns">Size</div>
+
+                    </div>
+                   <!-- SMALL of cart -->
+
+                   <!-- Record of cart --> 
+                    <div class="row record">
+                        <div class="large-1 small-2 columns"><img src="img/product2.png" alt="product"></div>
+                        <div class="large-2 small-3 columns">NT Tourist</div>
+                        <div class="large-2 small-3 columns">1.300.000</div>
+                        <div class="large-2 small-2 columns">Xanh</div>
+                        <div class="large-2 small-2 columns">M</div>
+                        <div class="large-2 small-10 columns"><input type="number" value="1" class="radius"></div>
+                        <div class="large-1 small-2 columns text-center"><a href="#"><i class="fa fa-2x fa-times-circle red-text"></i></a></div>
+                    </div>
+                   <!-- Record of cart -->
+
+                   <!-- Record of cart --> 
+                    <div class="row record">
+                        <div class="large-1 small-2 columns"><img src="img/product2.png" alt="product"></div>
+                        <div class="large-2 small-3 columns">NT Tourist</div>
+                        <div class="large-2 small-3 columns">1.300.000</div>
+                        <div class="large-2 small-2 columns">Xanh</div>
+                        <div class="large-2 small-2 columns">M</div>
+                        <div class="large-2 small-10 columns"><input type="number" value="1" class="radius"></div>
+                        <div class="large-1 small-2 columns text-center"><a href="#"><i class="fa fa-2x fa-times-circle red-text"></i></a></div>
+                    </div>
+                   <!-- Record of cart -->
+
+                   <!-- Record of cart --> 
+                    <div class="row record">
+                        <div class="large-1 small-2 columns"><img src="img/product2.png" alt="product"></div>
+                        <div class="large-2 small-3 columns">NT Tourist</div>
+                        <div class="large-2 small-3 columns">1.300.000</div>
+                        <div class="large-2 small-2 columns">Xanh</div>
+                        <div class="large-2 small-2 columns">M</div>
+                        <div class="large-2 small-10 columns"><input type="number" value="1" class="radius"></div>
+                        <div class="large-1 small-2 columns text-center"><a href="#"><i class="fa fa-2x fa-times-circle red-text"></i></a></div>
+                    </div>
+                   <!-- Record of cart -->
+
+                   <!-- Record of cart --> 
+                    <div class="row record">
+                        <div class="large-1 small-2 columns"><img src="img/product2.png" alt="product"></div>
+                        <div class="large-2 small-3 columns">NT Tourist</div>
+                        <div class="large-2 small-3 columns">1.300.000</div>
+                        <div class="large-2 small-2 columns">Xanh</div>
+                        <div class="large-2 small-2 columns">M</div>
+                        <div class="large-2 small-10 columns"><input type="number" value="1" class="radius"></div>
+                        <div class="large-1 small-2 columns text-center"><a href="#"><i class="fa fa-2x fa-times-circle red-text"></i></a></div>
+                    </div>
+                   <!-- Record of cart -->
+
+                   <!-- Record of cart --> 
+                    <div class="row record">
+                        <div class="large-1 small-2 columns"><img src="img/product2.png" alt="product"></div>
+                        <div class="large-2 small-3 columns">NT Tourist</div>
+                        <div class="large-2 small-3 columns">1.300.000</div>
+                        <div class="large-2 small-2 columns">Xanh</div>
+                        <div class="large-2 small-2 columns">M</div>
+                        <div class="large-2 small-10 columns"><input type="number" value="1" class="radius"></div>
+                        <div class="large-1 small-2 columns text-center"><a href="#"><i class="fa fa-2x fa-times-circle red-text"></i></a></div>
+                    </div>
+                   <!-- Record of cart -->
+
+                   
+
+                   <div class="small-8 columns cart-footer">
+                      
+                       <p>TỔNG CỘNG: 24.800.000 Đ</p>
+                   </div>
+                   <div class="small-4 columns cart-footer">
+                        <a href="#" class="button success small expand radius" data-reveal-id="order-form">ĐẶT HÀNG</a>
+                        <!-- FORM Thông tin khách hàng -->
+                        <div id="order-form" class="reveal-modal radius small" data-reveal>
+                          <h3 class="main-header">
+                           THÔNG TIN ĐẶT HÀNG</h3>
+                          <p>Quý khách vui lòng hoàn tất thông tin để tiến hành đặt hàng</p>
+                          <form action="">
+                              <input type="text" name="name" class="radius" placeholder="Họ và Tên">
+                              <input type="text" name="name" class="radius" placeholder="CMND">
+                              <input type="text" name="name" class="radius" placeholder="Địa Chỉ">
+                              <input type="text" name="name" class="radius" placeholder="Số Điện Thoại">
+                              <div class="large-8 columns cart-footer p-l-0">
+                                  
+                                   <p>TỔNG CỘNG: 24.800.000 Đ</p>
+                              </div>
+
+                              <div class="large-4 columns cart-footer">
+                                  <input type="submit" class="button radius small success expand" value="GỬI ĐƠN HÀNG">
+                              </div>
+                          </form>
+                          
+                          <a class="close-reveal-modal">&#215;</a>
+                        </div>
+                        <!-- FORM Thông tin khách hàng -->
+                   </div>
+            </div>
+            <!-- END OF A CART -->
+             <h6 class="text-right"><small>Quý Khách vui lòng kiểm tra lại giỏ hàng trước khi tiến hành “Đặt Hàng”.</small></h6>
+
+
+    </div>
+    <hr>
+
+    <!--#################################
+           - END OF MAIN CONTENT -
+    #################################-->
+
+
+    <div id="footer">
+     <div class="row">
+        <div class="large-2 columns">
+        <h3>THÔNG TIN</h3>
+        <ul>
+          <li><a href="#">Giới Thiệu</a></li>
+          <li><a href="#">Tài Khoản Ngân Hàng</a></li>
+          <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+          <li><a href="#">Hướng Dẫn Đặt Hàng</a></li>
+        </ul>
+      </div>
+      <!-- end of .large-2 columns -->  
+
+      <div class="large-2 columns">
+        <h3>LIÊN KẾT</h3>
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+          <li><a href="#"><i class="fa fa-google-plus-square"></i> Google Plus</a></li>
+          <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+          <li><a href="#"><i class="fa fa-pinterest-square"></i> Pinterest</a></li>
+        </ul>
+      </div>
+      <!-- end of .large-2 columns -->  
+
+      <div class="large-2 columns">
+        <h3>SITE</h3>
+        <ul>
+        <li><a href="#">Term of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Copyright Policy</a></li>
+        <li><a href="#">Support</a></li>
+ 
+        </ul>
+      </div>
+      <!-- end of .large-2 columns -->  
+
+      <div class="large-6 columns">
+        <img src="img/footer-banner.png" alt="footer">
+      </div>
+      <!-- end of .large-6 columns -->  
+
+      <div class="large-12 columns">
+ 
+        <small>© 2014 Powered By NT Production</small>
+      </div>
+      <!-- end of .large-12 columns -->  
+
+     </div>
+    </div>
+
+    
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery('.tp-banner').revolution({
+            delay: 6000,
+            startwidth: 1170,
+            startheight: 490,
+            hideThumbs: 10
+
+        });
+    });
+    </script>
+  </body>
+</html>
