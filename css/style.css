@@ -1,0 +1,385 @@
+@font-face {
+  font-family: 'VNF Oswald';
+  src: url('../font/VNF Oswald Regular.eot'); /* IE9 Compat Modes */
+  src: url('../font/VNF Oswald Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/VNF Oswald Regular.woff') format('woff'), /* Modern Browsers */
+       url('../font/VNF Oswald Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/VNF Oswald Regular.svg#f4dc9901432b26f69625c2b21bec7d18') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../font/VNF.ProximaNova-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../font/VNF.ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/VNF.ProximaNova-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../font/VNF.ProximaNova-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/VNF.ProximaNova-Regular.svg#c4cc6a88b88554c3a09ddb205b362a00') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'UTM-Avo';
+  src: url('UTM Avo.eot'); /* IE9 Compat Modes */
+  src: url('UTM Avo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('UTM Avo.woff') format('woff'), /* Modern Browsers */
+       url('UTM Avo.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('UTM Avo.svg#8107739bc2dec4faf10740cccf89d664') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+
+
+.custom-font-size{
+    font-size: 27px !important;
+}
+
+
+.tp-caption.large_text{
+
+    letter-spacing: 3px;
+}
+
+.tp-caption.small_text{
+  
+    font-size: 14px !important;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: Proxima Nova, Arial, Tahoma, sans-serif;
+}
+.content-wrapper {
+    background: #FFF;
+    padding-top: 50px;
+}
+p {
+    font-size: 0.75em;
+}
+
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+ul{
+    list-style: none;
+}
+
+.button1 {
+    border: 1px solid #FFF;
+    display: block;
+    background: none;
+    color: #fff !important;
+    padding: 10px;
+    width: 250%;
+    text-align: center;
+    font-weight: normal;
+    font-family: "VNF.Proxima Nova Rg" !important;
+    letter-spacing: 1px;
+}
+.button1:hover {
+    background: #FFF;
+    color: #000 !important;
+}
+.button2 {
+    border: 1px solid #FFF;
+    display: block;
+    background: none;
+    color: #fff !important;
+    padding: 10px;
+    width: 150%;
+    text-align: center;
+    font-weight: normal;
+    font-family: "VNF.Proxima Nova Rg" !important;
+    letter-spacing: 1px;
+}
+.button2:hover {
+    background: #FFF;
+    color: #000 !important;
+}
+
+.top-bar-section ul a{
+    /*font-family: "VNF.Proxima Nova Rg" !important;*/  
+}
+
+.top-bar-section ul.right a{
+    color: #555;
+    /*font-weight: bold;*/
+    font-family: "VNF.Proxima Nova Rg" !important;
+    text-transform: none;
+    
+}
+.boxedcontainer {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0px 30px;
+}
+/*********************************************
+	-	SETTINGS FOR BANNER CONTAINERS	-
+**********************************************/
+.tp-banner-container{
+    margin-top: 40px;
+    font-family: Proxima Nova;
+}
+
+
+.tp-banner-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+.tp-banner {
+    width: 100%;
+    position: relative;
+}
+.tp-banner-fullscreen-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.tp-simpleresponsive .button {
+    font-family: UVF TypoSlabserif !important;
+    letter-spacing: 2px !important;
+    text-shadow: none !important;
+}
+.m-t-30 {
+    margin-top: 30px;
+    display: block;
+}
+.m-t-40 {
+    margin-top: 40px;
+    display: block;
+}
+.m-t-50 {
+    margin-top: 50px;
+    display: block;
+}
+.m-t-70 {
+    margin-top: 70px;
+    display: block;
+}
+.m-b-30 {
+    margin-bottom: 30px;
+    display: block;
+}
+.m-l-0{
+    margin-left: 0;
+}
+.navbar-default {
+    background: #000;
+}
+/* Redefined css */
+
+.p-l-0 {
+    padding-left: 0;
+}
+.orange-text {
+    color: #F59D00 !important;
+}
+
+.gray-text {
+    color: #9B9B9B !important;
+}
+
+.red-text{
+	 color: #D0021B !important;
+}
+
+.green-text{
+     color: #00BD9C !important;
+}
+
+.blue-text{
+    color: #2C97DE !important;
+}
+
+.violet-text{
+    color: #9C56B8 !important;
+}
+
+/* Extra small devices (phones, less than 768px) */
+
+/* No media query since this is the default in Bootstrap */
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute !important;
+}
+.top-bar-background {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    
+   .right{
+    font-family: Proxima Nova !important;
+   }
+    
+    .top-bar {
+        background: none;
+        margin-top: 20px;
+    }
+    .top-bar-section ul li {
+        background: none;
+    }
+    .top-bar-section li:not(.has-form) a:not(.button) {
+        background: none;
+    }
+    .top-bar-background {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 15px 0;
+    }
+
+    
+}
+
+.m-t-50 {
+    margin-top: 50px;
+    display: block;
+}
+
+.n-p-l{
+    padding-left: 0;
+}
+
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+    background-color: transparent; 
+    background: transparent;
+    color: #8B572A; 
+}
+
+body{
+    border-top: 6px solid #951919;
+}
+
+.top-bar-section ul li > a{
+    color: #4A4A4A;
+    font-family: VNF Oswald;
+    text-transform: uppercase;
+}
+
+
+#search-box input{
+    font-size: 20px !important;
+    color: #AAAAAA;
+    line-height: 24px;
+    margin-top: 30px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #979797;
+    border-radius: 0;
+}
+
+#search-box span{
+    font-size: 14px;
+    color: #AAAAAA;
+    line-height: 17px;
+}
+
+.intro-block-item h2{
+    font-family: UTM-Avo;
+    font-size: 20px;
+    color: #AAAAAA;
+    line-height: 27px;
+    background: url("../img/ornament.png") left center no-repeat;
+    text-indent: 25px;
+}
+
+.intro-block-item p{
+    font-size: 12px;
+    color: #868686;
+    line-height: 14px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.intro-block-item img:hover{
+
+-moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.50);
+box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+#intro-letter{
+    font-family: TimesNewRoman;
+    font-style: italic;
+font-size: 14px;
+color: #AAAAAA;
+line-height: 16px;
+/* Consectetur adipisic: */
+}
+
+hr{
+    /* Line: */
+border: 1px solid #BDC3C7;
+-moz-box-shadow:    0px 1px 3px 0px rgba(0,0,0,0.32);
+box-shadow:         0px 1px 3px 0px rgba(0,0,0,0.32);
+}
+
+.main-header{
+    font-family: VNF Oswald;
+    font-size: 20px;
+    color: #AAAAAA;
+    line-height: 28px;
+    background: url("../img/ornament.png") left center no-repeat;
+    text-indent: 25px;
+}
+
+.sub-main-header{
+    font-size: 12px;
+    color: #AAAAAA;
+    line-height: 14px;
+    text-indent: 25px;
+}
+
+.product-item{
+    margin: 20px 0;
+}
+
+.product-item h2{
+    font-family: VNF Oswald;
+    font-size: 16px;
+    color: #4A4A4A;
+    line-height: 23px;
+    margin: 5px 0;
+}
+
+.product-item a{
+    font-size: 13px;
+    color: #AAAAAA;
+    line-height: 16px;
+    /* Balo cho Nam: */
+    margin-bottom: 7px;
+    display: block;
+}
+
+.product-item a:hover{
+    color: #951919;
+
+}
+
+.product-item p{
+
+    font-size: 12px;
+    color: #000;
+    line-height: 14px;
+
+}
